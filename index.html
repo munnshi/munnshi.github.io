@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function () {
+            var currentUrl = window.location.href;
+            var newUrl = currentUrl.replace(
+                "munnshi.github.io",
+                "munnshi-io.web.app"
+            );
+
+            if (currentUrl !== newUrl) {
+                window.location.replace(newUrl);
+            }
+        };
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
